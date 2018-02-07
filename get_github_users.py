@@ -13,7 +13,7 @@ try:
     try:
         with open(filename, "a") as myfile:
 
-            for i in range(last_index,10000,30):
+            for i in range(last_index,10000000,30):
                 request = 'curl -i https://api.github.com/users' + '\?since\=' + str(i) + '| grep "login" | cut -d" " -f6 | cut -d"," -f1'
                 users = os.popen(str(request)).read()
 
