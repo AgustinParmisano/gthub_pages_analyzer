@@ -1,0 +1,136 @@
+Owasp ZAP Cli analisis for url: http://jamis.github.io
+[INFO]            Starting ZAP daemon
+[INFO]            Running a quick scan for http://jamis.github.io
+[INFO]            Issues found: 0
+[INFO]            Shutting down ZAP daemon
+
++--------------------------------------------------------------+ 
+
+Owasp ZAP Cli analisis for url: http://jamis.github.io
+[INFO]            Starting ZAP daemon
+[INFO]            Running a quick scan for http://jamis.github.io
+[INFO]            Issues found: 0
+[INFO]            Shutting down ZAP daemon
+
++--------------------------------------------------------------+ 
+
+Owasp ZAP Cli analisis for url: http://mdp.github.io
+[INFO]            Starting ZAP daemon
+[INFO]            Running a quick scan for http://mdp.github.io
+[INFO]            Issues found: 0
+[INFO]            Shutting down ZAP daemon
+
++--------------------------------------------------------------+ 
+
+Owasp ZAP Cli analisis for url: http://jamis.github.io
+[INFO]            Starting ZAP daemon
+[INFO]            Running a quick scan for http://jamis.github.io
+[INFO]            Issues found: 0
+[INFO]            Shutting down ZAP daemon
+
++--------------------------------------------------------------+ 
+
+Owasp ZAP Cli analisis for url: http://cablehead.github.io
+[INFO]            Starting ZAP daemon
+[INFO]            Running a quick scan for http://cablehead.github.io
+[INFO]            Issues found: 0
+[INFO]            Shutting down ZAP daemon
+
++--------------------------------------------------------------+ 
+
+Owasp ZAP Cli analisis for url: http://mdp.github.io
+[INFO]            Starting ZAP daemon
+[INFO]            Running a quick scan for http://mdp.github.io
+[INFO]            Issues found: 0
+[INFO]            Shutting down ZAP daemon
+
++--------------------------------------------------------------+ 
+
+Owasp ZAP Cli analisis for url: http://jamis.github.io
+[INFO]            Starting ZAP daemon
+[INFO]            Running a quick scan for http://jamis.github.io
+[INFO]            Issues found: 0
+[INFO]            Shutting down ZAP daemon
+
++--------------------------------------------------------------+ 
+
+Owasp ZAP Cli analisis for url: http://gbraad.github.io
+[INFO]            Starting ZAP daemon
+[INFO]            Running a quick scan for http://gbraad.github.io
+[INFO]            Issues found: 0
+[INFO]            Shutting down ZAP daemon
+
++--------------------------------------------------------------+ 
+
+Owasp ZAP Cli analisis for url: http://cablehead.github.io
+[INFO]            Starting ZAP daemon
+[INFO]            Running a quick scan for http://cablehead.github.io
+[INFO]            Issues found: 0
+[INFO]            Shutting down ZAP daemon
+
++--------------------------------------------------------------+ 
+
+Owasp ZAP Cli analisis for url: http://testphp.vulnweb.com
+[INFO]            Starting ZAP daemon
+[INFO]            Running a quick scan for http://testphp.vulnweb.com
+[INFO]            Issues found: 16
++----------------------------------+--------+----------+--------------------------------------------------------------------------------------------------------------------+
+| Alert                            | Risk   |   CWE ID | URL                                                                                                                |
++==================================+========+==========+====================================================================================================================+
+| Cross Site Scripting (Reflejada) | High   |       79 | http://testphp.vulnweb.com/guestbook.php                                                                           |
++----------------------------------+--------+----------+--------------------------------------------------------------------------------------------------------------------+
+| Cross Site Scripting (Reflejada) | High   |       79 | http://testphp.vulnweb.com/guestbook.php                                                                           |
++----------------------------------+--------+----------+--------------------------------------------------------------------------------------------------------------------+
+| Cross Site Scripting (Reflejada) | High   |       79 | http://testphp.vulnweb.com/hpp/params.php?p=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&pp=12                       |
++----------------------------------+--------+----------+--------------------------------------------------------------------------------------------------------------------+
+| Cross Site Scripting (Reflejada) | High   |       79 | http://testphp.vulnweb.com/hpp/params.php?p=valid&pp=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E                    |
++----------------------------------+--------+----------+--------------------------------------------------------------------------------------------------------------------+
+| Cross Site Scripting (Reflejada) | High   |       79 | http://testphp.vulnweb.com/hpp/?pp=javascript%3Aalert%281%29%3B                                                    |
++----------------------------------+--------+----------+--------------------------------------------------------------------------------------------------------------------+
+| Cross Site Scripting (Reflejada) | High   |       79 | http://testphp.vulnweb.com/listproducts.php?artist=%3C%2Fdiv%3E%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E%3Cdiv%3E |
++----------------------------------+--------+----------+--------------------------------------------------------------------------------------------------------------------+
+| Cross Site Scripting (Reflejada) | High   |       79 | http://testphp.vulnweb.com/listproducts.php?cat=%3C%2Fdiv%3E%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E%3Cdiv%3E    |
++----------------------------------+--------+----------+--------------------------------------------------------------------------------------------------------------------+
+| Cross Site Scripting (Reflejada) | High   |       79 | http://testphp.vulnweb.com/search.php?test=query                                                                   |
++----------------------------------+--------+----------+--------------------------------------------------------------------------------------------------------------------+
+| Cross Site Scripting (Reflejada) | High   |       79 | http://testphp.vulnweb.com/secured/newuser.php                                                                     |
++----------------------------------+--------+----------+--------------------------------------------------------------------------------------------------------------------+
+| Cross Site Scripting (Reflejada) | High   |       79 | http://testphp.vulnweb.com/showimage.php?file=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E                           |
++----------------------------------+--------+----------+--------------------------------------------------------------------------------------------------------------------+
+| Cross Site Scripting (Reflejada) | High   |       79 | http://testphp.vulnweb.com/showimage.php?file=%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E&size=160                  |
++----------------------------------+--------+----------+--------------------------------------------------------------------------------------------------------------------+
+| Cross Site Scripting (Reflejada) | High   |       79 | http://testphp.vulnweb.com/secured/newuser.php                                                                     |
++----------------------------------+--------+----------+--------------------------------------------------------------------------------------------------------------------+
+| Cross Site Scripting (Reflejada) | High   |       79 | http://testphp.vulnweb.com/secured/newuser.php                                                                     |
++----------------------------------+--------+----------+--------------------------------------------------------------------------------------------------------------------+
+| Cross Site Scripting (Reflejada) | High   |       79 | http://testphp.vulnweb.com/secured/newuser.php                                                                     |
++----------------------------------+--------+----------+--------------------------------------------------------------------------------------------------------------------+
+| Cross Site Scripting (Reflejada) | High   |       79 | http://testphp.vulnweb.com/secured/newuser.php                                                                     |
++----------------------------------+--------+----------+--------------------------------------------------------------------------------------------------------------------+
+| Cross Site Scripting (Reflejada) | High   |       79 | http://testphp.vulnweb.com/secured/newuser.php                                                                     |
++----------------------------------+--------+----------+--------------------------------------------------------------------------------------------------------------------+
+[INFO]            Shutting down ZAP daemon
+
++--------------------------------------------------------------+ 
+
+Owasp ZAP Cli analisis for url: http://google-gruyere.appspot.com/355119133543423985678649417684976518128
+[INFO]            Starting ZAP daemon
+[INFO]            Running a quick scan for http://google-gruyere.appspot.com/355119133543423985678649417684976518128
+[INFO]            Issues found: 1
++----------------------------------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Alert                            | Risk   |   CWE ID | URL                                                                                                                                                      |
++==================================+========+==========+==========================================================================================================================================================+
+| Cross Site Scripting (Reflejada) | High   |       79 | http://google-gruyere.appspot.com/355119133543423985678649417684976518128/snippets.gtl?uid=%3C%2Fh2%3E%3Cscript%3Ealert%281%29%3B%3C%2Fscript%3E%3Ch2%3E |
++----------------------------------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+[INFO]            Shutting down ZAP daemon
+
++--------------------------------------------------------------+ 
+
+Owasp ZAP Cli analisis for url: http://www.try2hack.nl/levels
+[INFO]            Starting ZAP daemon
+[INFO]            Running a quick scan for http://www.try2hack.nl/levels
+[INFO]            Issues found: 0
+[INFO]            Shutting down ZAP daemon
+
++--------------------------------------------------------------+ 
+
